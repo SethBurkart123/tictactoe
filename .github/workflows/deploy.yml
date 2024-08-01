@@ -17,9 +17,6 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
 
-      - name: cd into project
-        run: cd ./tictactoe
-
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
